@@ -5,7 +5,7 @@ import './App.css';
 const App = () => {
   return (
     <div className='app-container'>
-      <h1>Mi Carrusel de Fotos con Corazón</h1>
+      <h1>Mi amorcito</h1>
       <PhotoCarousel />
       <div className='heart-container'>
 
