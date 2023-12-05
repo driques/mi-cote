@@ -1,0 +1,38 @@
+/* Estilo del carrusel */
+.slick-slider {
+    position: relative;
+    margin: 0 auto;
+    width: 80%; /* Ajusta el ancho del carrusel según tus necesidades */
+  }
+  
+  /* Estilo de las fotos en el carrusel */
+  .photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Ajusta el redondeo de las esquinas según tus preferencias */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para resaltar las fotos */
+  }
+  
+  /* Estilo del corazón en el carrusel */
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 2; 
+  }
+  
+  /* Estilo adicional para el carrusel */
+  .slick-dots {
+    bottom: 10px; /* Ajusta la posición de los puntos indicadores */
+  }
+  
+  .slick-dots li button {
+    font-size: 12px; /* Ajusta el tamaño de los puntos indicadores */
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px; /* Ajusta el tamaño de las flechas de navegación */
+    z-index: 1; /* Asegura que las flechas estén detrás de las fotos */
+  }
+  

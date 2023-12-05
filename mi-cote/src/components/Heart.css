@@ -1,0 +1,53 @@
+/* Heart shape */
+.heart {
+    position: relative;
+    width: 20px;
+    height: 10px;
+    animation: heartbeat 2s infinite;
+  }
+  /* Ajuste de estilos para el carrusel */
+.slick-slider {
+    position: relative;
+  }
+  
+  /* Before pseudo-element */
+  .heart-before,
+  .heart-after {
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #CC3E3E;
+    border-radius: 50px 50px 0;
+    transform-origin: 0 100%;
+    transform: rotate(-45deg);
+  }
+  
+  /* After pseudo-element */
+  .heart-after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  
+  /* Keyframe animation */
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    15% {
+      transform: scale(1.4);
+    }
+    30% {
+      transform: scale(1);
+    }
+    45% {
+      transform: scale(1.4);
+    }
+    70% {
+      transform: scale(1);
+    }
+  }
+  
